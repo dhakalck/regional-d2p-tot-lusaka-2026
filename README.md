@@ -1,7 +1,7 @@
 # D2P Regional Training of Trainers Workshop Website
 
 ## Overview
-This website provides comprehensive information about the Regional Data to Policy (D2P) Training of Trainers Workshop taking place in Lusaka, Zambia, March 2-5, 2026.
+This website provides information about the Regional Data to Policy (D2P) Training of Trainers Workshop taking place in Lusaka, Zambia, March 2-5, 2026.
 
 ## Website Structure
 
