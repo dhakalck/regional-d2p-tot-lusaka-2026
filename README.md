@@ -4,7 +4,7 @@
 This website provides information about the Regional Data to Policy (D2P) Training of Trainers Workshop taking place in Lusaka, Zambia, March 2-5, 2026.
 
 ## Website Structure
-
+Live page: https://dhakalck.github.io/regional-d2p-tot-lusaka-2026/
 The website consists of 5 main pages:
 
 ### 1. **index.html** - Home Page
