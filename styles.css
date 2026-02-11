@@ -1085,8 +1085,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    padding: 1rem 0;
+    gap: 1rem;
+    padding: 0;
 }
 
 .footer-logos {
@@ -1095,6 +1095,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .footer-logo {
@@ -1109,12 +1110,16 @@ section {
 }
 
 .footer-text p {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0;
     font-size: 0.9rem;
 }
 
 /* Responsive footer */
 @media (max-width: 768px) {
+    .footer {
+        padding: 1rem;
+    }
+    
     .footer-logo {
         max-width: 100%;
     }
