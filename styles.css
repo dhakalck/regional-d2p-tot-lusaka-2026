@@ -348,6 +348,12 @@ section {
     transition: background-color 0.3s ease;
 }
 
+.agenda-row {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 2.5fr 1.5fr;
+}
+
+
 .agenda-row:hover {
     background-color: var(--bg-light);
 }
