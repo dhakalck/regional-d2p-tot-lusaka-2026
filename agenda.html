@@ -3,105 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda - D2P Regional TOT Lusaka 2026</title>
+    <title>Agenda - D2P Regional TOT Workshop</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .agenda-section {
-            margin: 3rem 0;
-        }
-        .agenda-day {
-            margin: 3rem 0;
-        }
-        .day-header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-            color: white;
-            padding: 1.5rem 2rem;
-            border-radius: 8px 8px 0 0;
-            margin-bottom: 0;
-        }
-        .agenda-table {
-            background: white;
-            border-radius: 0 0 8px 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .agenda-row {
-            display: grid;
-            grid-template-columns: 1.2fr 1.2fr 2fr 1.5fr;
-            border-bottom: 1px solid var(--border);
-            transition: background 0.2s;
-        }
-        .agenda-row.header {
-            background: var(--primary);
-            color: white;
-            font-weight: 700;
-        }
-        .agenda-row.break {
-            background: #FFF3E0;
-        }
-        .agenda-row:hover:not(.header):not(.break) {
-            background: var(--bg-light);
-        }
-        .agenda-row > div {
-            padding: 1rem 1.5rem;
-            border-right: 1px solid var(--border);
-        }
-        .agenda-row > div:last-child {
-            border-right: none;
-        }
-        .time {
-            font-weight: 600;
-            color: var(--primary);
-        }
-        .est-time {
-            font-weight: 600;
-            color: #666;
-            font-size: 0.95rem;
-        }
-        .topic {
-            line-height: 1.6;
-        }
-        .facilitator {
-            font-style: italic;
-            color: var(--text-light);
-        }
-        .break .time,
-        .break .est-time,
-        .break .topic {
-            color: #E65100;
-            font-weight: 700;
-        }
-        .header .time,
-        .header .est-time,
-        .header .topic,
-        .header .facilitator {
-            color: white;
-        }
-        .timezone-note {
-            background: #E3F2FD;
-            border-left: 4px solid #1976D2;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 4px;
-        }
-        .timezone-note h3 {
-            color: #1976D2;
-            margin-bottom: 0.5rem;
-        }
-        
-        @media (max-width: 968px) {
-            .agenda-row {
-                grid-template-columns: 1fr;
-            }
-            .agenda-row > div {
-                border-right: none;
-                border-bottom: 1px solid var(--border);
-            }
-            .agenda-row > div:last-child {
-                border-bottom: none;
-            }
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -117,332 +20,336 @@
         </div>
     </nav>
 
-    <header class="page-header" style="background: linear-gradient(135deg, #52307C 0%, #0066CC 100%); color: white; padding: 3rem 2rem; text-align: center;">
+    <header class="page-header">
         <div class="container">
-            <h1 style="color: white;">Workshop Agenda</h1>
-            <p style="font-size: 1.1rem;">Regional D2P Train-the-Trainer | March 2-5, 2026</p>
+            <h1>Workshop Agenda</h1>
+            <p>March 2-5, 2026 | Ciela Lusaka, Zambia</p>
         </div>
     </header>
 
     <main class="container">
-        <div class="timezone-note">
-            <h3>🌍 Time Zone Information</h3>
-            <p><strong>Zambia Time (CAT):</strong> Central Africa Time - GMT+2</p>
-            <p><strong>EST/NY Time:</strong> Eastern Standard Time - GMT-5 (7 hours behind Zambia)</p>
-            <p><em>Note: All times shown are local Lusaka time with EST equivalent for reference.</em></p>
-        </div>
-
-        <section class="agenda-section">
-            <section class="agenda-day">
-                <h2 class="day-header">DAY 1: Monday, March 2, 2026</h2>
-                <div class="agenda-table">
-                    <div class="agenda-row header">
-                        <div class="time">Zambia Time</div>
-                        <div class="est-time">EST/NY Time</div>
-                        <div class="topic">Topic</div>
-                        <div class="facilitator">Assignment/Facilitators</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">8:45 - 9:00 AM</div>
-                        <div class="est-time">1:45 - 2:00 AM</div>
-                        <div class="topic">Registration (All)</div>
-                        <div class="facilitator">All</div>
-                    </div>
-                    
-                    <div class="agenda-row">
-                        <div class="time">9:00 - 9:30 AM</div>
-                        <div class="est-time">2:00 - 2:30 AM</div>
-                        <div class="topic">Welcome and Introduction</div>
-                        <div class="facilitator">Andrew, Chandra, Diene, Melanie</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">9:30 - 10:00 AM</div>
-                        <div class="est-time">2:30 - 3:00 AM</div>
-                        <div class="topic">Overview of the D2P and TOT Workshop</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">10:00 - 10:15 AM</div>
-                        <div class="est-time">3:00 - 3:15 AM</div>
-                        <div class="topic">MORNING TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">10:15 AM - 12:00 PM</div>
-                        <div class="est-time">3:15 - 5:00 AM</div>
-                        <div class="topic">D2P Module Summaries</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">12:00 - 1:00 PM</div>
-                        <div class="est-time">5:00 - 6:00 AM</div>
-                        <div class="topic">LUNCH</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">1:00 - 2:00 PM</div>
-                        <div class="est-time">6:00 - 7:00 AM</div>
-                        <div class="topic">Closer Look: Root-Cause Analysis</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">2:00 - 2:30 PM</div>
-                        <div class="est-time">7:00 - 7:30 AM</div>
-                        <div class="topic">Closer Look: The Problem Statement</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">2:30 - 2:45 PM</div>
-                        <div class="est-time">7:30 - 7:45 AM</div>
-                        <div class="topic">AFTERNOON TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">2:45 - 3:30 PM</div>
-                        <div class="est-time">7:45 - 8:30 AM</div>
-                        <div class="topic">Your Role as Facilitator and Mentor<br>Wrap-Up and Debrief</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="agenda-day">
-                <h2 class="day-header">DAY 2: Tuesday, March 3, 2026</h2>
-                <div class="agenda-table">
-                    <div class="agenda-row header">
-                        <div class="time">Zambia Time</div>
-                        <div class="est-time">EST/NY Time</div>
-                        <div class="topic">Topic</div>
-                        <div class="facilitator">Assignment/Facilitators</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">8:45 AM</div>
-                        <div class="est-time">1:45 AM</div>
-                        <div class="topic">Welcome and Introduction</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">9:00 - 9:30 AM</div>
-                        <div class="est-time">2:00 - 2:30 AM</div>
-                        <div class="topic">Giving Feedback</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">9:30 - 10:00 AM</div>
-                        <div class="est-time">2:30 - 3:00 AM</div>
-                        <div class="topic">Closer Look: Policy Options</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">10:00 - 10:15 AM</div>
-                        <div class="est-time">3:00 - 3:15 AM</div>
-                        <div class="topic">MORNING TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">10:15 AM - 12:00 PM</div>
-                        <div class="est-time">3:15 - 5:00 AM</div>
-                        <div class="topic">Closer Look: Economic Modules (Part 1)</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">12:00 - 1:00 PM</div>
-                        <div class="est-time">5:00 - 6:00 AM</div>
-                        <div class="topic">LUNCH BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">1:00 - 2:30 PM</div>
-                        <div class="est-time">6:00 - 7:30 AM</div>
-                        <div class="topic">Mentoring for D2P</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">2:30 - 2:45 PM</div>
-                        <div class="est-time">7:30 - 7:45 AM</div>
-                        <div class="topic">AFTERNOON TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">2:45 - 3:30 PM</div>
-                        <div class="est-time">7:45 - 8:30 AM</div>
-                        <div class="topic">Closer Look: Economic Modules (Part 2)<br>Wrap-Up and Debrief</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="agenda-day">
-                <h2 class="day-header">DAY 3: Wednesday, March 4, 2026</h2>
-                <div class="agenda-table">
-                    <div class="agenda-row header">
-                        <div class="time">Zambia Time</div>
-                        <div class="est-time">EST/NY Time</div>
-                        <div class="topic">Topic</div>
-                        <div class="facilitator">Assignment/Facilitators</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">8:45 AM</div>
-                        <div class="est-time">1:45 AM</div>
-                        <div class="topic">Welcome and Introduction</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">9:00 - 10:00 AM</div>
-                        <div class="est-time">2:00 - 3:00 AM</div>
-                        <div class="topic">Mentoring Practice: The Problem Statement</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">10:00 - 10:15 AM</div>
-                        <div class="est-time">3:00 - 3:15 AM</div>
-                        <div class="topic">MORNING TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">10:15 - 11:30 AM</div>
-                        <div class="est-time">3:15 - 4:30 AM</div>
-                        <div class="topic">Closer Look: Writing the Policy Options Section</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">11:30 AM - 12:00 PM</div>
-                        <div class="est-time">4:30 - 5:00 AM</div>
-                        <div class="topic">Closer Look: Making and Writing Recommendations</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">12:00 - 1:00 PM</div>
-                        <div class="est-time">5:00 - 6:00 AM</div>
-                        <div class="topic">LUNCH</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">1:00 - 2:30 PM</div>
-                        <div class="est-time">6:00 - 7:30 AM</div>
-                        <div class="topic">Mentoring Practice: The Policy Brief</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">2:30 - 2:45 PM</div>
-                        <div class="est-time">7:30 - 7:45 AM</div>
-                        <div class="topic">AFTERNOON TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">2:45 - 3:30 PM</div>
-                        <div class="est-time">7:45 - 8:30 AM</div>
-                        <div class="topic">Mentoring Challenges (Part 1 and 2)<br>Wrap-Up and Debrief</div>
-                        <div class="facilitator">Chandra & Andrew</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="agenda-day">
-                <h2 class="day-header">DAY 4: Thursday, March 5, 2026 (Half Day)</h2>
-                <div class="agenda-table">
-                    <div class="agenda-row header">
-                        <div class="time">Zambia Time</div>
-                        <div class="est-time">EST/NY Time</div>
-                        <div class="topic">Topic</div>
-                        <div class="facilitator">Assignment/Facilitators</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">8:45 AM</div>
-                        <div class="est-time">1:45 AM</div>
-                        <div class="topic">Welcome and Introduction</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">9:00 - 10:00 AM</div>
-                        <div class="est-time">2:00 - 3:00 AM</div>
-                        <div class="topic">Review: Economics Modules</div>
-                        <div class="facilitator">Andrew</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">10:00 - 10:15 AM</div>
-                        <div class="est-time">3:00 - 3:15 AM</div>
-                        <div class="topic">MORNING TEA BREAK</div>
-                        <div class="facilitator">—</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">10:15 - 11:45 AM</div>
-                        <div class="est-time">3:15 - 4:45 AM</div>
-                        <div class="topic">Your Role Beyond Facilitating and Mentoring</div>
-                        <div class="facilitator">Chandra</div>
-                    </div>
-
-                    <div class="agenda-row">
-                        <div class="time">11:45 AM - 12:00 PM</div>
-                        <div class="est-time">4:45 - 5:00 AM</div>
-                        <div class="topic">Final Wrap-Up, Evaluation, and Closing</div>
-                        <div class="facilitator">Andrew & Chandra</div>
-                    </div>
-
-                    <div class="agenda-row break">
-                        <div class="time">12:00 - 1:00 PM</div>
-                        <div class="est-time">5:00 - 6:00 AM</div>
-                        <div class="topic">LUNCH</div>
-                        <div class="facilitator">—</div>
-                    </div>
-                </div>
-            </section>
+        <section class="agenda-intro">
+            <h2>Overview</h2>
+            <p>The 4-day Training of Trainers workshop focuses on interactive learning, presentations, and mentoring practice. Each session includes opportunities for hands-on application, feedback, and preparation for real-world D2P implementation.</p>
+            <div class="schedule-note">
+                <p><strong>Daily Schedule:</strong></p>
+                <ul>
+                    <li>Days 1-3 (March 2-4): 8:45 AM - 3:30 PM</li>
+                    <li>Day 4 (March 5): 8:45 AM - 1:00 PM</li>
+                    <li>Lunch Break: 12:00 - 1:00 PM </li>
+                </ul>
+            </div>
         </section>
 
-        <div class="timezone-note" style="margin-top: 3rem;">
-            <h3>📝 Notes</h3>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>All sessions are conducted at Ciela Lusaka, Ngwerere Road, Bonanza Estate</li>
-                <li>Please arrive 15 minutes early each day for registration</li>
-                <li>Tea breaks include light refreshments</li>
-                <li>Lunch is provided on-site</li>
-                <li>Bring your laptop and materials for all sessions</li>
-            </ul>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logos">
-                    <img src="D2P1.jpg" alt="Data to Policy - Partner Organizations" class="footer-logo">
+        <section class="agenda-day">
+            <h2 class="day-header">DAY 1: Monday, March 2, 2026</h2>
+            <div class="agenda-table">
+                <div class="agenda-row header">
+                    <div class="time">Zambia Time</div>
+                    <div class="time">EST/NY Time</div>
+                    <div class="topic">Topic</div>
+                    <div class="topic">Assignment/Facilitators</div>
                 </div>
-                <div class="footer-text">
-                    <p>&copy; 2026 The Data to Policy (D2P) program, developed by Vital Strategies, CDC Foundation and the U.S. Centers for Disease Control and Prevention with support from the Bloomberg Philanthropies Data for Health Initiative</p>
+
+                <div class="agenda-row">
+                    <div class="time">8:45 - 9:00 AM</div>
+                    <div class="time">1:45 - 2:00 AM</div>
+                    <div class="topic">Registration (All)</div>
+                    <div class="topic">All</div>
+                </div>
+                
+                <div class="agenda-row">
+                    <div class="time">9:00 - 9:30 AM</div>
+                    <div class="time">2:00 - 2:30 AM</div>
+                    <div class="topic">Welcome and Introduction</div>
+                    <div class="topic">Andrew, Chandra, Diene, Melanie</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">9:30 - 10:00 AM</div>
+                    <div class="time">2:30 - 3:00 AM</div>
+                    <div class="topic">Overview of the D2P and TOT Workshop</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">10:00 - 10:15 AM</div>
+                    <div class="time">3:00 - 3:15 AM</div>
+                    <div class="topic">MORNING TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">10:15 AM - 12:00 PM</div>
+                    <div class="time">3:15 - 5:00 AM</div>
+                    <div class="topic">D2P Module Summaries</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">12:00 - 1:00 PM</div>
+                    <div class="time">5:00 - 6:00 AM</div>
+                    <div class="topic">LUNCH</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">1:00 - 2:00 PM</div>
+                    <div class="time">6:00 - 7:00 AM</div>
+                    <div class="topic">Closer Look: Root-Cause Analysis</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">2:00 - 2:30 PM</div>
+                    <div class="time">7:00 - 7:30 AM</div>
+                    <div class="topic">Closer Look: The Problem Statement</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">2:30 - 2:45 PM</div>
+                    <div class="time">7:30 - 7:45 AM</div>
+                    <div class="topic">AFTERNOON TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">2:45 - 3:30 PM</div>
+                    <div class="time">7:45 - 8:30 AM</div>
+                    <div class="topic">Your Role as Facilitator and Mentor<br>Wrap-Up and Debrief</div>
+                    <div class="topic">Andrew</div>
                 </div>
             </div>
+        </section>
+
+        <section class="agenda-day">
+            <h2 class="day-header">DAY 2: Tuesday, March 3, 2026</h2>
+            <div class="agenda-table">
+                <div class="agenda-row header">
+                    <div class="time">Zambia Time</div>
+                    <div class="time">EST/NY Time</div>
+                    <div class="topic">Topic</div>
+                    <div class="topic">Assignment/Facilitators</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">8:45 AM</div>
+                    <div class="time">1:45 AM</div>
+                    <div class="topic">Welcome and Introduction</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">9:00 - 9:30 AM</div>
+                    <div class="time">2:00 - 2:30 AM</div>
+                    <div class="topic">Giving Feedback</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">9:30 - 10:00 AM</div>
+                    <div class="time">2:30 - 3:00 AM</div>
+                    <div class="topic">Closer Look: Policy Options</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">10:00 - 10:15 AM</div>
+                    <div class="time">3:00 - 3:15 AM</div>
+                    <div class="topic">MORNING TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">10:15 AM - 12:00 PM</div>
+                    <div class="time">3:15 - 5:00 AM</div>
+                    <div class="topic">Closer Look: Economic Modules (Part 1)</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">12:00 - 1:00 PM</div>
+                    <div class="time">5:00 - 6:00 AM</div>
+                    <div class="topic">LUNCH BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">1:00 - 2:30 PM</div>
+                    <div class="time">6:00 - 7:30 AM</div>
+                    <div class="topic">Mentoring for D2P</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">2:30 - 2:45 PM</div>
+                    <div class="time">7:30 - 7:45 AM</div>
+                    <div class="topic">AFTERNOON TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">2:45 - 3:30 PM</div>
+                    <div class="time">7:45 - 8:30 AM</div>
+                    <div class="topic">Closer Look: Economic Modules (Part 2)<br>Wrap-Up and Debrief</div>
+                    <div class="topic">Andrew</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agenda-day">
+            <h2 class="day-header">DAY 3: Wednesday, March 4, 2026</h2>
+            <div class="agenda-table">
+                <div class="agenda-row header">
+                    <div class="time">Zambia Time</div>
+                    <div class="time">EST/NY Time</div>
+                    <div class="topic">Topic</div>
+                    <div class="topic">Assignment/Facilitators</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">8:45 AM</div>
+                    <div class="time">1:45 AM</div>
+                    <div class="topic">Welcome and Introduction</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">9:00 - 10:00 AM</div>
+                    <div class="time">2:00 - 3:00 AM</div>
+                    <div class="topic">Mentoring Practice: The Problem Statement</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">10:00 - 10:15 AM</div>
+                    <div class="time">3:00 - 3:15 AM</div>
+                    <div class="topic">MORNING TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">10:15 - 11:30 AM</div>
+                    <div class="time">3:15 - 4:30 AM</div>
+                    <div class="topic">Closer Look: Writing the Policy Options Section</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">11:30 AM - 12:00 PM</div>
+                    <div class="time">4:30 - 5:00 AM</div>
+                    <div class="topic">Closer Look: Making and Writing Recommendations</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">12:00 - 1:00 PM</div>
+                    <div class="time">5:00 - 6:00 AM</div>
+                    <div class="topic">LUNCH</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">1:00 - 2:30 PM</div>
+                    <div class="time">6:00 - 7:30 AM</div>
+                    <div class="topic">Mentoring Practice: The Policy Brief</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">2:30 - 2:45 PM</div>
+                    <div class="time">7:30 - 7:45 AM</div>
+                    <div class="topic">AFTERNOON TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">2:45 - 3:30 PM</div>
+                    <div class="time">7:45 - 8:30 AM</div>
+                    <div class="topic">Mentoring Challenges (Part 1 and 2)<br>Wrap-Up and Debrief</div>
+                    <div class="topic">Chandra & Andrew</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agenda-day">
+            <h2 class="day-header">DAY 4: Thursday, March 5, 2026 (Half Day)</h2>
+            <div class="agenda-table">
+                <div class="agenda-row header">
+                    <div class="time">Zambia Time</div>
+                    <div class="time">EST/NY Time</div>
+                    <div class="topic">Topic</div>
+                    <div class="topic">Assignment/Facilitators</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">8:45 AM</div>
+                    <div class="time">1:45 AM</div>
+                    <div class="topic">Welcome and Introduction</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">9:00 - 10:00 AM</div>
+                    <div class="time">2:00 - 3:00 AM</div>
+                    <div class="topic">Review: Economics Modules</div>
+                    <div class="topic">Andrew</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">10:00 - 10:15 AM</div>
+                    <div class="time">3:00 - 3:15 AM</div>
+                    <div class="topic">MORNING TEA BREAK</div>
+                    <div class="topic">—</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">10:15 - 11:45 AM</div>
+                    <div class="time">3:15 - 4:45 AM</div>
+                    <div class="topic">Your Role Beyond Facilitating and Mentoring</div>
+                    <div class="topic">Chandra</div>
+                </div>
+
+                <div class="agenda-row">
+                    <div class="time">11:45 AM - 12:00 PM</div>
+                    <div class="time">4:45 - 5:00 AM</div>
+                    <div class="topic">Final Wrap-Up, Evaluation, and Closing</div>
+                    <div class="topic">Andrew & Chandra</div>
+                </div>
+
+                <div class="agenda-row break">
+                    <div class="time">12:00 - 1:00 PM</div>
+                    <div class="time">5:00 - 6:00 AM</div>
+                    <div class="topic">LUNCH</div>
+                    <div class="topic">—</div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="agenda-notes">
+            <h2>Important Notes</h2>
+            <ul>
+                <li>Please arrive 15 minutes early each day for registration and setup</li>
+                <li>All sessions are interactive and require full participation</li>
+                <li>Participants should bring laptops for practice exercises</li>
+                <li>Evaluation forms will be completed on the final day</li>
+            </ul>
+        </section>
+    </main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logos">
+                <img src="D2P1.jpg" alt="Data to Policy - Partner Organizations" class="footer-logo">
+            </div>
+            <div class="footer-text">
+<p>&copy; 2026 The Data to Policy (D2P) program, developed by Vital Strategies, CDC Foundation and the U.S. Centers for Disease Control and Prevention with support from the Bloomberg Philanthropies Data for Health Initiative</p>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
